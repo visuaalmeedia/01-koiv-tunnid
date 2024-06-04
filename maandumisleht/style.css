@@ -1,57 +1,134 @@
-img {
-    height: 100%;
-    width: 100%;
-    }
-    
-    .parentContainer {
-    position: relative;
-    text-align: center;
-    color: white;
-    }
-    
-    .bottom-left {
-    position: absolute;
-    bottom: 10px;
-    left: 15px;
-    }
-    
-    .top-left {
-    position: absolute;
-    top: 10px;
-    left: 15px;
-    }
-    
-    .top-right {
-    position: absolute;
-    top: 10px;
-    right: 15px;
-    }
-    
-    .bottom-right {
-    position: absolute;
-    bottom: 10px;
-    right: 15px;
-    }
-    
-    .centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    }
-
-.monsieur-la-doulaise-regular {
-    font-family: "Monsieur La Doulaise", cursive;
-    font-weight: 400;
-    font-style: normal;
-}
-    
-h1 {
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%);
-    color: white;
-    margin-top: 300px;
-    font-family: monsieur la doulaise;
-  }
+        body {
+            color: white;
+            margin: 0;
+            font-family: "Libre Caslon Text";
+            font-weight: 400;
+            font-style: normal;
+            background-color: #D3CFC5;
+        }
+        
+        .hero {
+            background-image: url(pilt1.jpg);
+            padding-bottom: 10rem;
+            background-size: cover;
+            padding-top: 29rem;
+        }
+        
+        h1 {
+            color: white;
+            width: fit-content;
+            padding: 1rem 4rem;
+            margin: auto;
+            font-family: Monsieur La Doulaise, cursive;
+            font-weight: 200;
+            font-style: normal;
+            font-size: 5rem;
+            position: relative;
+            top: -110px;
+        }
+        
+        .hero p {
+            color: white;
+            width: fit-content;
+            padding: 0.4rem 0.5rem;
+            border-radius: 1.5rem;
+            margin: 0 auto;
+            margin-top: 1rem;
+            font-size: 2rem;
+            position: relative;
+            top: -170px;
+        }
+        
+        .baaa {
+            color: #353132;
+            text-align: center;
+            font-size: 1rem;
+        }
+        
+        .trending img {
+            max-width: 340px;
+            height: 340px;
+            margin: 15px;
+        }
+        
+        .trending {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 80%;
+            max-width: 1200px;
+            padding: 20px;
+        }
+        
+        .linnud {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            flex: 1;
+            left: 140;
+        }
+        
+        .linnud img {
+            max-width: 50%;
+            height: auto;
+        }
+        
+        .yap {
+            padding: 20px;
+            max-width: 40%;
+            text-align: left;
+            flex: 1;
+            color: #353132;
+        }
+        
+        .atpearl {
+            width: fit-content;
+            margin: 20px auto;
+            font-family: Monsieur La Doulaise;
+            font-weight: 300;
+            font-style: normal;
+            font-size: 2rem;
+            color: #353132;
+        }
+        
+        .buy {
+            width: 100px;
+            text-align: center;
+            margin: auto;
+            font-family: "Libre Caslon Text";
+            background-size: cover;
+            background-color: #B1A184;
+            color: #353132;
+            justify-content: center;
+            font-size: 1.5rem;
+        }
+        
+        .products-row {
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        .product {
+            font-family: Libre Caslon Text;
+            color: #353132;
+            flex: 1;
+            text-align: center;
+            padding: 0 4px;
+        }
+        
+        .product img {
+            width: 100%;
+            max-width: 250px;
+            height: auto;
+        }
+        
+        .product h4,
+        .product p {
+            margin: 2;
+        }
